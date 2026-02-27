@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | NK Home Designs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-container">
+    <div class="logo">
+      <img src="images/NKhomelogo.svg" alt="">
+      <span>NK home designs</span>
+    </div>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="company.html">Company</a>
+      <a href="layout.html">Layouts</a>
+    </nav>
+
+    <a href="contact.html" class="contact-btn">Contact us</a>
+  </div>
+</header>
+
+<section class="contact-section">
+  <div class="contact-container">
+
+    <!-- LEFT SIDE -->
+    <div class="contact-left">
+
+      <img src="images/contact-house.png" alt="" class="contact-image">
+
+      <div class="contact-info">
+        <div class="info-item">
+          <span>Reach out via email</span>
+          <p>ujjawaltiwari@gmail.com</p>
+        </div>
+
+        <div class="info-item">
+          <span>Call for Inquiry</span>
+          <p>+91 6203153189</p>
+        </div>
+
+        <div class="info-item">
+          <span>Office address</span>
+          <p>Banuchappar ward no.28, Bettiah</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="contact-right">
+
+      <h2>Tell me about your space</h2>
+
+      <form class="contact-form">
+
+        <label>Your full name</label>
+        <input type="text">
+
+        <div class="form-row">
+          <div>
+            <label>Your email</label>
+            <input type="email">
+          </div>
+          <div>
+            <label>Mobile no.</label>
+            <input type="text" placeholder="+91">
+          </div>
+        </div>
+
+       <div class="service-options">
+  <button type="button" class="service-chip">Exterior & Interior</button>
+  <button type="button" class="service-chip">Construction</button>
+  <button type="button" class="service-chip">Real Estate</button>
+  <button type="button" class="service-chip">Land & Property</button>
+  <button type="button" class="service-chip">Layout planning</button>
+  <button type="button" class="service-chip">Marketing</button>
+  <button type="button" class="service-chip">Home services</button>
+</div>
+
+
+        <label>Message</label>
+        <textarea placeholder="Tell us more about your project and space..."></textarea>
+
+        <button type="submit" class="submit-btn">Submit now</button>
+
+      </form>
+
+    </div>
+
+  </div>
+</section>
+<!-- SUCCESS POPUP -->
+<div class="success-popup" id="successPopup">
+
+  <div class="success-overlay"></div>
+
+  <div class="success-box">
+    <img src="images/success-user.png" class="success-user" alt="">
+    <div class="success-check">✓</div>
+
+    <h3>Your message has been sent!</h3>
+    <p>Thanks for reaching out, we’ll connect with you in less than 2 days.</p>
+
+    <button onclick="closeSuccess()">Ok, got it</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
